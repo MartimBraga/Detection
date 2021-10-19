@@ -1,0 +1,10 @@
+<launch>
+  <!-- Run the offboard position controller -->
+  <node name="pos_controller" pkg="detection" type="offb_node_feedback" />
+
+  <!-- Run MAVROS -->
+  <include file="$(find mavros)/launch/apm.launch" pass_all_args="true">
+    <arg name="fcu_url" value="udp://127.0.0.1:14551@14555"/>
+  </include>
+</launch>
+
