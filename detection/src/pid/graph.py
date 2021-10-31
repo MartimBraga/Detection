@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 fig = plt.figure()
 ax = plt.axes(projection='3d') """
 
-file_location = "/home/martim/catkin_ws/src/detection/src/pid/bom.xls"
+file_location = "/home/martim/catkin_ws/src/detection/src/pid/dataX.xls"
 
 workbook = xlrd.open_workbook(file_location)
 

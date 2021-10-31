@@ -40,7 +40,7 @@ fig = go.Figure(data=[go.Scatter3d(
     marker=dict(
         size=12,
         color=z,                # set color to an array/list of desired values
-        colorscale='Viridis',   # choose a colorscale
+        colorscale='sunsetdark',   # choose a colorscale
         opacity=0.8
     )
 )])
